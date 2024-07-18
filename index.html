@@ -53,7 +53,7 @@ chat='true'>
 
     <h2>Contact Form</h2>
 
-    <form id="Test Form">
+    <form id="Test_Form">
         <div>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -67,9 +67,12 @@ chat='true'>
             <input type="tel" id="mobile" name="mobile" required>
         </div>
         <div>
-            <button type="submit">Submit</button>
+            <button>Submit</button>
         </div>
     </form>
+    <script>  
+document.querySelector("#Test_Form > button").type = "submit"; 
+</script>
 
 </body>
 </html>
